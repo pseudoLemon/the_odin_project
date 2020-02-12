@@ -1,0 +1,107 @@
+#logo {
+    height: 150px;
+    margin-top: 83px;
+    text-align: center;
+}
+
+.bar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 650px;
+    height: 33px;
+}
+
+#search {
+    text-align: center;
+
+}
+
+#buts {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#lefthand {
+    flex: auto;
+}
+
+.left {
+    display: inline-block;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 5px;
+}
+
+#righthand {
+    flex: auto;
+    text-align: right;
+}
+
+.right {
+    display: inline-block;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 5px;
+}
+
+#wrapper {
+    display: flex;
+}
+
+li a {
+    color: rgb(32, 30, 30);
+    font-size: small;
+    text-decoration: none;
+}
+
+.buttonStyle {
+    font-size: small;
+
+}
+
+.signbox {
+    background-color: rgb(70, 186, 240);
+    border-radius: 3px;
+    color: white;
+}
+
+/**********FOOTER***********/
+
+footer {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 99%;
+    padding-bottom: 5px;
+    background-color: whitesmoke;
+}
+
+.rightf {
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.leftf {
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* #footwrap {
+    display: block;
+    overflow: hidden;
+} */
+
+#rightfoot {
+    flex: auto;
+    text-align: right;
+}
+
+#leftfoot {
+    flex: auto;
+    text-align: left;
+}
